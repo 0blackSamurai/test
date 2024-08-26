@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    background-color: #878282;
+    /* background-color: #C3C1C1; */
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0%;
+   
+  
+}
+li {
+   display: inline;
+   padding: 200px;
+}
+nav {
+    background-color: rgb(31, 30, 30);
+    box-shadow: 2px 3px 3px darkgray;
+    height: 50px;
+    width: 2000px;
+}
+a {
+    color: white;
+}
+.modding {
+    border-radius: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+h1 {
+    text-align: center;
+    max-height: 200px;
+}
+main {
+    justify-content: center;
+    flex-direction: row ;
+}
