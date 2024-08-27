@@ -1,7 +1,7 @@
 body {
     display: flex;
-    background-color: #878282;
-    /* background-color: #C3C1C1; */
+    /* background-color: #878282; */
+    background-color: #C3C1C1;
     justify-content: space-between;
     flex-direction: column;
     margin: 0%;
@@ -14,9 +14,12 @@ li {
 }
 nav {
     background-color: rgb(31, 30, 30);
-    box-shadow: 2px 3px 3px darkgray;
-    height: 50px;
-    width: 2000px;
+    /* box-shadow: 1px 3px 3px rgb(36, 36, 36); */
+    height: 50px;       
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.5s;
 }
 a {
     color: white;
@@ -26,6 +29,7 @@ a {
     justify-content: space-evenly;
     display: flex;
     width: 100%;
+    
     
 }
 
@@ -37,4 +41,31 @@ h1 {
 main {
     justify-content: center;
     flex-direction: row ;
+}
+
+.modding2 {
+    height: 200px;
+    background-color: #CDCBCB;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 3px 3px rgb(61, 61, 61);
+}
+.modding2:hover {
+    box-shadow: 2px 7px 10px rgb(46, 43, 43);
+}
+.nav:hover {
+    box-shadow: 1px 7px 10px rgb(46, 43, 43);
+}
+.om_meg { 
+    height: 200px;
+    background-color: #CDCBCB;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 3px 3px rgb(61, 61, 61);
+    width: 70%;
+}
+.divs {
+    display: flex ;
+    justify-content: center;
 }
