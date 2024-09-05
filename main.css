@@ -1,34 +1,84 @@
 body {
+    font-family: Arial;
     display: flex;
-    /* background-color: #878282; */
-    background-color: #C3C1C1;
+    background-color: #E0E0E0;
     justify-content: space-between;
     flex-direction: column;
     margin: 0%;
-   
-  
+
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    padding: 10px;
+}
+.logo2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -30px;
+    left: -40px;
 }
 li {
-   display: inline;
-   padding: 200px;
+    list-style-type: none;
+   display: flex;
+}
+
+ul {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.top1 {
+    position: relative;
+    top: -100px;
+}
+
+li a {
+    color: black;
+    display: flex;
+    text-decoration: none;
 }
 nav {
-    background-color: rgb(31, 30, 30);
-    /* box-shadow: 1px 3px 3px rgb(36, 36, 36); */
-    height: 50px;       
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     transition: box-shadow 0.5s;
+    gap: 40px;
+    color: #555;
+    text-decoration: none;
+    font-size: 18px;
 }
+li {
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+.top5 {
+    position: relative;
+    top: -30px;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 a {
     color: white;
-}
+    padding: 10px;
+} 
 .modding {
     border-radius: 30px;
-    justify-content: space-evenly;
+    justify-content:center;
+    flex-direction: row;
     display: flex;
     width: 100%;
+  
     
     
 }
@@ -45,21 +95,39 @@ main {
 
 .modding2 {
     height: 200px;
-    background-color: #CDCBCB;
+    flex-direction: row;
+    margin-left: 50px;
+    background-color: #F5F5F5;
     width: 200px;
     border-radius: 12px;
     text-align: center;
     box-shadow: 2px 3px 3px rgb(61, 61, 61);
+    color: black;
+}
+.bilder {
+    width: 100px;
+    height:100px;
+    position: relative;
+    top: -80px;
+}
+.bilder1{
+    width: 140px;
+    height:105px;
+    position: relative;
+    top: -85px;
+}
+.black {
+    color: black;
 }
 .modding2:hover {
-    box-shadow: 2px 7px 10px rgb(46, 43, 43);
+    box-shadow: 2px 7px 10px rgba(46, 43, 43, 0.1);
 }
-.nav:hover {
-    box-shadow: 1px 7px 10px rgb(46, 43, 43);
-}
+
 .om_meg { 
+    margin: 50px;
     height: 160px;
-    background-color: #CDCBCB;
+    background-color: #F5F5F5;
+    border-radius: 20px;
     width: 200px;
     text-align: center;
     box-shadow: 2px 3px 3px rgb(61, 61, 61);
@@ -69,10 +137,297 @@ main {
     display: flex ;
     justify-content: center;
 }
+.divs3 {
+    display: flex ;
+    justify-content: center;
+    height: 100%;
+}
 .ommeg2 {
     border-radius: 30px;
     justify-content: space-evenly;
     display: flex;
     width: 100%;
     padding-top: 40px;
+}
+.divs2{
+    display: flex ;
+    justify-content: center;
+    height: 90px;
+}
+.home {
+    /* background-color: #F5F5F5; */
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    padding: 30px 20px;
+    /* box-shadow: 2px 3px 3px rgb(61, 61, 61);  */
+    border: 1px solid lightgray;
+}
+.profile {
+    position: relative;
+    top: -110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: -50px;
+}
+.white {
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    border: 1px solid lightgray;
+}
+.gray {
+    background-color:#EFEFEF;
+    width: 70%;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 97%;
+    border: 2px solid black;
+}
+.top2 {
+    position: relative;
+    top: -120px;
+}
+.top3 {
+    position: relative;
+    top: -80px;
+}
+.top4 {
+    position: relative;
+    top: -10px;}
+.monster {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgb(61, 61, 61);
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+
+    
+}
+.monster.enlarged {
+transform: scale(2); /* Double the size */
+z-index: 10; /* Bring to front */
+}
+.showtop {
+    position: relative;
+    top: -60px;
+}
+.showcase2 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin-inline: 180px;
+    top: -405px;
+}
+.kontakt { 
+    margin: 50px;
+    height: 200px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 3px 3px rgb(61, 61, 61);
+    width: 70%;
+}
+.Ferdigheter {
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+}
+.Ferdigheter p {
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+    border-radius: 10px;
+    border: 1px solid black;
+} 
+
+.ferdigheter-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    font-size: 16px;
+    left: 44%;
+    width: 9%;
+    position: relative;
+    top: -130px; 
+    transition: transform 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ferdigheter-button:hover {
+    transform: rotate(-10deg);
+    box-shadow: 2px 3px 3px rgb(61, 61, 61);
+}
+@media (max-width: 1240px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    ul {
+        flex-direction: row;
+        /* align-items: center; */
+        gap: 10px;
+    }
+
+    .profile {
+        top: -60px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .row {
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 70px;
+        display: flex;
+    }
+    .bilder {
+        width: 80px;
+        height: 80px;
+    }
+    .bilder1 {
+        width: 110px;
+        height: 100px;
+    }
+
+    .home {
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .gray {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .white {
+        padding: 10px;
+        height: auto;
+    }
+}
+
+@media (max-width: 660px) {
+    nav {
+        gap: 10px;
+        font-size: 16px;
+    }
+    
+    .top1 {
+        position: relative;
+        top: -70px;
+    }
+    .top2 {
+        position: relative;
+        top: -100px;
+    }
+    
+    .profile-img {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: -30px;
+    }
+
+    .row {
+        gap: 10px;
+        margin-top: 30px;
+    }
+    
+    .bilder {
+        width: 80px;
+        height: 80px;
+        margin-top: 60px;
+    }
+    .modding {
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .bilder1 {
+        width: 110px;
+        height: 100px;
+        margin-top: 60px;
+    }
+
+    .top2 {
+        top: -80px;
+        font-size: 18px;
+    }
+
+    .home {
+        padding: 15px;
+        height: auto;
+    }
+
+    .gray {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .white {
+        border-radius: 10px;
+        padding: 10px;
+        height: auto;
+    }
+    .profile {
+        top: -40px;
+    }
+    .modding2 {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+    }
+    .ommeg2 {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
 }

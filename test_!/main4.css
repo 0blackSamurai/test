@@ -1,0 +1,45 @@
+body{
+    background-color:#E0E0E0;
+}
+img{
+   margin-left: 20%;
+    width: 400px;
+}
+button{
+    
+    text-align: center;
+    margin-left: 47%;
+}
+.game {
+    color: black;
+}
+p{ 
+    
+    text-align: center;
+}
+h2{ 
+
+    text-align: center;
+}
+h1{ 
+    text-align: center;
+    color: white;
+}
+#searchInput{
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+.searchbutton {
+    margin-left: 0%;
+}
+.game {
+    border: 2px solid black;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    max-width: 700px;
+    margin-left: 28%;
+    box-shadow: #888888 3px 3px 3px;
+    margin-bottom: 20px;
+}
+.game:hover {
+    box-shadow: 10px 10px 8px #888888;}

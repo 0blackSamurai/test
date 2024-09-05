@@ -1,0 +1,126 @@
+:root {
+    --bg-color: lightgreen;
+    --main: #E0E0E0;;
+}
+
+h1 {
+    text-align: center;
+    color: (var(--bg-color));
+}
+
+#quizdiv {
+    border: solid black;
+    background-color: #E0E0E0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-top: 3%;
+    color:(var(--bg-color));
+    box-shadow: -4px 8px 22px 9px rgba(0,0,0,0.1);
+    border: solid gray;
+
+}
+body {
+    background-color: #E0E0E0;;
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    
+}
+button {
+    color: (var(--bg-color));
+    background-color:(var(--main));
+    font-size: large;
+    border: solid gray;
+    color: white;
+    
+}
+:root {
+    --bg-color: #F5F5F5;
+    --main: #F5F5F5;
+    --button-bg-color: #3399ff; /* Define button background color */
+    --button-text-color: #fff; /* Define button text color */
+}
+
+h1 {
+    text-align: center;
+    color: (var(--bg-color));
+}
+
+#quizdiv {
+    border: solid #E0E0E0;;
+    background-color: var(--main);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-top: 3%;
+    color: (var(--bg-color));
+    box-shadow: -4px 8px 22px 9px rgba(0, 0, 0, 0.1);
+    border: solid gray;
+}
+
+body {
+    background-color: #E0E0E0;;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    color: black;
+    background-color: var(--bg-color);
+    font-size: large;
+    border: solid rgb(204, 196, 196);
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust spacing */
+    
+}
+
+input[type="radio"] {
+    display: none; /* Hide the default radio buttons */
+}
+
+label {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: var(--bg-color);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; /* Adjust spacing */
+}
+
+input[type="radio"]:checked + label {
+    background-color: var(--main);
+    color: var(--main);
+}
+.tilbake{
+    display: flex;
+    color: black;
+    background-color: #E0E0E0;;
+    font-size: large;
+    border-color: 1px solid black;
+}
+.correctAnswer {
+    background-color: green;
+}
+.failAnswer{
+    background-color: red;
+}
+li {
+    color: white;
+}
+h1{
+    background-color: #F5F5F5;
+    color: black;
+}
+.save {
+    color: black;
+    background-color: #E0E0E0;;
+}
