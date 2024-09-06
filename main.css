@@ -232,6 +232,7 @@ main {
 .monster.enlarged {
 transform: scale(2.5); /* Double the size */
 z-index: 10; /* Bring to front */
+box-shadow: 0 0 30px black;
 }
 .showtop {
     position: relative;
@@ -258,23 +259,30 @@ z-index: 10; /* Bring to front */
 .Ferdigheter {
     flex-direction: row;
     display: flex;
-    gap: 5px;
-
+    gap: 15px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     position: relative;
     top: -80px;
+    transition: 0.3s ease;
 }
 .Ferdigheter p {
     background-color: white;
-    width: 120px;
-    height: 30px;
     justify-content: center;
     align-items: center;
-    padding: 0.25em;
+    padding: 12px 30px;
     border-radius: 10px;
+    box-shadow: 1px 2px 2px rgb(61, 61, 61);
     border: 1px solid black;
+    transition: 0.3s ease;
 } 
+
+.ferdigheter p:hover{
+    transition: 0.3s ease;
+    box-shadow: 2px 8px 8px rgb(61, 61, 61);
+    padding: 21px 42px;
+}
 
 .ferdigheter-button {
     padding: 10px 20px;
@@ -310,7 +318,12 @@ z-index: 10; /* Bring to front */
         /* align-items: center; */
         gap: 10px;
     }
-
+    .Ferdigheter {
+        top: -120px;
+    }
+    .divs3 {
+        height: 700px;
+    }
     .profile {
         top: -100px;
     }
@@ -365,6 +378,9 @@ z-index: 10; /* Bring to front */
     }
     .ferdigheter-button { 
         top: -60px;
+    }
+    .Ferdigheter p {
+        padding: 10px 20px;
     }
     
     .top1 {
@@ -431,6 +447,7 @@ z-index: 10; /* Bring to front */
 
     .home {
         padding: 15px;
+        width: 100%;
         height: auto;
     }
 
@@ -447,6 +464,10 @@ z-index: 10; /* Bring to front */
     }
     .profile {
         top: -40px;
+    }
+    
+    .divs3 {
+        width: 100%;
     }
     .modding2 {
         flex-direction: column;
